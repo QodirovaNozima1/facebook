@@ -26,7 +26,7 @@ function menu() {
 }
 
 {
-    //1masala
+    //1masala.counting sheeps
     function countSheeps(sheep) {
     return  sheep.filter(qoy => qoy).length
 }
@@ -50,7 +50,7 @@ function menu() {
 }
 
 {
-    //3masala.Complete the squaare sum function so that it squares each number passed into it and then sums
+    //3masala.Complete the squaare sum function so that it squares each number passed into it and then sums the result together.
     function squareSum(num) {
         return num.reduce((sum,number)=> sum + number * number, 0) 
     }
@@ -95,7 +95,7 @@ function menu() {
     // console.log(noSpace(`frgsdghth dshdxnszdtje yjdrh try et u`));
 }
 {
-    //8masala.write a program that finds the summation of every number from 1 to num.the number will always
+    //8masala.write a program that finds the summation of every number from 1 to num.The number will always be a positive integer greater than 0. Your function only needs to return the result, what is shown between parentheses in the example below is how you reach that result and it's not part of it, see the sample tests.
     function summation(num) {
         let sum = 0
         for (let index = 1; index <= num; index++) {
@@ -109,7 +109,7 @@ function menu() {
 
 {
     //9masala.this kata is inspired by Convert a number to String
-    function srtingToNum(str) {
+    const srtingToNum = function (str){
         return parseInt(str)
     }
     // console.log(srtingToNum("54246"));//54246
@@ -123,5 +123,18 @@ function menu() {
 }
 
 {
-    
+     //11masala.REVERSED STRING
+     function str(word){
+        return word.split("").
+        reverse().
+        join(``)
+    }
+    // console.log(str("word"));//drow
+}
+{
+    //12masala."Hello, <name> how are you doing today?".
+    function greet(name) {
+        return `Hello, ${name} how are you doing today?` 
+    }
+    // console.log(greet("John"));
 }
